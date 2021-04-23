@@ -1,0 +1,80 @@
+body {
+    background-color: black;
+}
+
+#circle-icon {
+    border-radius: 50%;
+}
+
+#world-map {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+table {
+    background-color: white;
+    margin-bottom: 0px!important;
+}
+
+.table-responsive {
+    max-height: 300px;
+    margin: 0px;
+}
+
+.tableFixHead { 
+    overflow: auto; 
+    height: 100px; 
+    background-color: white;
+}
+
+.tableFixHead thead th { 
+    position: sticky; 
+    top: 0; 
+    z-index: 1; 
+    background-color: white;
+}
+
+
+
+tr:after {
+    content: ' ';
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.link a {
+    color: gray!important;
+    text-decoration: none!important;
+}
+
+
+/* table {
+    width: 100%;
+}
+
+thead, tbody, tr, td, th { display: block; }
+
+tr:after {
+    content: ' ';
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+tbody {
+    height: 120px;
+    overflow-y: auto;
+}
+
+tbody td, thead th {
+    width: 19.2%;
+    float: left;
+} */
